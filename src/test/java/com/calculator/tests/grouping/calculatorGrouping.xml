@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Calculation Test Suite" >
+
+	<test name="Calculation Grouping and Parameter Scenarios">
+		<groups>
+			<run>
+				<include name = "sanity"/>
+			</run>
+		</groups>
+	
+		<classes>
+			<class name="com.calculator.tests.asserts.calculatorAssertion"></class>
+		</classes>
+	
+	</test>
+	
+</suite>
