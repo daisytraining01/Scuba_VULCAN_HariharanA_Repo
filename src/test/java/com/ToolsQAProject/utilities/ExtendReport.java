@@ -16,7 +16,7 @@ public class ExtendReport {
 	
 		public static void startReport() {
 		 System.out.println("Came into Before Test");
-			htmlReporter = new ExtentHtmlReporter("./test-output/ToolQAReport/ToolsQAExtentReport.html");
+			htmlReporter = new ExtentHtmlReporter("./target/ToolQAReport/ToolsQAExtentReport.html");
 	        	// Create an object of Extent Reports
 			extent = new ExtentReports();  
 			extent.attachReporter(htmlReporter);

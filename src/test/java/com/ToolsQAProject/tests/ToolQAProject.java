@@ -27,30 +27,8 @@ public class ToolQAProject extends ExtendReport{
 		CommonDef.driverInit(ConfigProperties.TOOLSQA_URL.get());
 		System.out.println("Started.....");
 	}
-
-
-
+	
 	@Test()
-	public void variousElementValidation() throws IOException {
-		logger = extent.createTest("Elements");
-		ToolsQAProjectStepDefinition steps = new ToolsQAProjectStepDefinition();
-		steps.elementsTabValidations(logger);	
-	}
-	
-	
-	public void variousAlertsFrameWindowsValidation() throws IOException {
-		logger = extent.createTest("Aerts Frame & Windows");
-		ToolsQAProjectStepDefinition steps = new ToolsQAProjectStepDefinition();
-		steps.alertsFrameWindowsValidation(logger);	
-	}
-	
-	
-	public void variousWidgetsValidation() throws IOException {
-		logger = extent.createTest("Widgets");
-		ToolsQAProjectStepDefinition steps = new ToolsQAProjectStepDefinition();
-		steps.widgetsValidation(logger);	
-	}
-	
 	public void formsOptionValidation() throws IOException {
 		logger = extent.createTest("Forms");
 		ToolsQAProjectStepDefinition steps = new ToolsQAProjectStepDefinition();

@@ -57,6 +57,77 @@ public class ElementPageElements {
 	 public static By checkbox_ResultValidation(String result) {
 	        return CommonDef.locatorValue(Locators.XPATH,"//*[contains(text(),'"+result+"')]");
 	    }
+	 
+	 public static By radiobutton_Dynamic(String radiobuttonName) {
+	        return CommonDef.locatorValue(Locators.XPATH,"//*[contains(text(),'"+radiobuttonName+"')]");
+	    }
+	 
+	 public static By radiobutton_ResultValidation(String result) {
+	        return CommonDef.locatorValue(Locators.XPATH,"//*[contains(text(),'"+result+"')]");
+	    }
+	 
+	 public static By button_dynamic_click() {
+	        return CommonDef.locatorValue(Locators.XPATH,"//*[@id='rightClickBtn']//parent::div//following-sibling::div//button");
+	    }
+	 
+	 public static By button_right_click() {
+	        return CommonDef.locatorValue(Locators.XPATH,"//*[@id='rightClickBtn']");
+	    }
+	 
+	 public static By button_double_click() {
+	        return CommonDef.locatorValue(Locators.XPATH,"//*[@id='doubleClickBtn']");
+	    }
+	 
+	 public static By button_double_click_result() {
+	        return CommonDef.locatorValue(Locators.ID,"doubleClickMessage");
+	    }
+	 
+	 public static By button_right_click_result() {
+	        return CommonDef.locatorValue(Locators.ID,"rightClickMessage");
+	    }
+	 
+	 public static By button_dynamic_click_result() {
+	        return CommonDef.locatorValue(Locators.ID,"dynamicClickMessage");
+	    }
+	 
+	 public static By button_click_dynamic_text(String buttonName) {
+	        return CommonDef.locatorValue(Locators.XPATH,"//*[contains(text(),'"+buttonName+"']");
+	    }
+	 
+	public static By webtable_dynamic_Editbutton(String name, String email)
+	{
+		 return CommonDef.locatorValue(Locators.XPATH,"//div[contains(text(),'"+name+"')]//following-sibling::div[contains(text(),'"+email+"')]//following-sibling::div[3]//div//span[@title='Edit']");
+	}
+	
+	public static By webtable_dynamic_Deletebutton(String name, String email)
+	{
+		 return CommonDef.locatorValue(Locators.XPATH,"//div[contains(text(),'"+name+"')]//following-sibling::div[contains(text(),'"+email+"')]//following-sibling::div[3]//div//span[@title='Delete']");
+	}
+	
+	public static By webtable_dynamic_firstname(String firstname) {
+        return CommonDef.locatorValue(Locators.XPATH,"//div[contains(text(),'"+firstname+"')]");
+    }
+	
+	public static By webtable_dynamic_secname(String firstname) {
+        return CommonDef.locatorValue(Locators.XPATH,"//div[contains(text(),'"+firstname+"')]//following-sibling::div[1]");
+    }
+	
+	public static By webtable_dynamic_age(String firstname) {
+        return CommonDef.locatorValue(Locators.XPATH,"//div[contains(text(),'"+firstname+"')]//following-sibling::div[2]");
+    }
+	
+	public static By webtable_dynamic_email(String firstname) {
+        return CommonDef.locatorValue(Locators.XPATH,"//div[contains(text(),'"+firstname+"')]//following-sibling::div[3]");
+    }
+	
+	public static By webelement_add_firstname_Box() {
+        return CommonDef.locatorValue(Locators.ID,"firstName");
+    }
+	
+	public static By webelement_add_lastName_Box() {
+        return CommonDef.locatorValue(Locators.ID,"lastName");
+    }
+	
 	
 	
 }

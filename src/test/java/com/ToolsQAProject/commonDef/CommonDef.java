@@ -6,23 +6,29 @@ import java.rmi.Remote;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.Augmenter;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
 import com.maveric.core.utils.web.WebActions;
+import com.ToolsQAProject.pages.elements.FormPageElements;
 import com.ToolsQAProject.tests.ToolQAProject;
 import com.ToolsQAProject.utilities.ExtendReport;
 import com.aventstack.extentreports.ExtentReports;
@@ -74,6 +80,15 @@ public class CommonDef extends BaseTest{
 	    	driver.manage().timeouts().implicitlyWait(ConfigProperties.WAIT_TIMEOUT.getInt(), TimeUnit.SECONDS);    		    	
 	    }
 	    
+	    public static void waitnow()
+	    {
+	    try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	    }
 	    public static void maxmizeBrowser()
 	    {
 	    	driver.manage().window().maximize();
@@ -164,7 +179,7 @@ public class CommonDef extends BaseTest{
 
 	    public static void click(By by, ExtentTest logger) throws IOException {
 			try {
-				
+				waitVisible(by, logger);
 				WebElement element = driver.findElement(by);
 				element.click();
 				logger.log(Status.PASS, "Element CLicked "+ "- "+by);
@@ -180,7 +195,7 @@ public class CommonDef extends BaseTest{
 			
 			WebDriver augmentedDriver = new Augmenter().augment(driver);
 			File source = ((TakesScreenshot) augmentedDriver).getScreenshotAs(OutputType.FILE);
-			String path =  "./test-output/ToolQAReport/Screenshots/" + screenshotName + dateName + ".png";
+			String path =  "./target/ToolQAReport/Screenshots/" + screenshotName + dateName + ".png";
 			File finalDestination = new File(path);
 			FileUtils.copyFile(source, finalDestination);
 			return path;
@@ -195,6 +210,27 @@ public class CommonDef extends BaseTest{
 			}
 			
 			return text;
+		}
+		
+		public static String getAlertText(ExtentTest logger) throws IOException {
+	    	String text = null;
+			try {
+				 text = driver.switchTo().alert().getText();
+			} catch (Exception e) {
+				logger.log(Status.FAIL, "Alert Not Found");
+			}
+			
+			return text;
+		}
+		
+		public static void alertDismiss(ExtentTest logger) throws IOException {
+			try {
+				implicitWait();
+				driver.switchTo().alert().dismiss();
+			} catch (Exception e) {
+				logger.log(Status.FAIL, "Alert Not Found");
+			}
+			
 		}
 		
 		public static String[] splitMethod(By by,String Symbol,ExtentTest logger) throws IOException {
@@ -225,7 +261,37 @@ public class CommonDef extends BaseTest{
 	    
 	    public static void sendKeys(By by, String keysToSend,ExtentTest logger) throws IOException {
 			try {
+				click(by,logger);
 				driver.findElement(by).sendKeys(keysToSend);
+				logPassAndTakeScreenShot(logger,"SendValueSuccess","SendValueSuccess",by);
+			} catch (Exception E) {
+				logFailAndTakeScreenShot(logger,"SendValueFailed","SendValueFailed",by);
+			}
+		}
+	    
+	    public static void uploadPic(By by, String keysToSend) throws IOException {
+			try {
+				driver.findElement(by).sendKeys(keysToSend);
+			} catch (Exception E) {
+			}
+		}
+	    
+	    public static void sendKeyswithEnter(By by, String keysToSend,ExtentTest logger) throws IOException {
+			try {
+				   Actions action = new Actions(driver);
+				   driver.findElement(by).sendKeys(keysToSend);
+			        action.sendKeys(Keys.ENTER).build().perform();
+				logPassAndTakeScreenShot(logger,"SendValueSuccess","SendValueSuccess",by);
+			} catch (Exception E) {
+				logFailAndTakeScreenShot(logger,"SendValueFailed","SendValueFailed",by);
+			}
+		}
+	    
+	    public static void sendKeyswithTab(By by, String keysToSend,ExtentTest logger) throws IOException {
+			try {
+				click(by, logger);
+				driver.findElement(by).sendKeys(keysToSend);
+				driver.findElement(by).sendKeys(Keys.TAB);
 				logPassAndTakeScreenShot(logger,"SendValueSuccess","SendValueSuccess",by);
 			} catch (Exception E) {
 				logFailAndTakeScreenShot(logger,"SendValueFailed","SendValueFailed",by);
@@ -250,7 +316,122 @@ public class CommonDef extends BaseTest{
 			}
 		}
 	    
-	   
+	    public static void doubleclick(By by, ExtentTest logger) throws IOException {
+			try {
+				 Actions actions = new Actions(driver);
+				    WebElement elementLocator = driver.findElement(by);
+				    actions.doubleClick(elementLocator).perform();
+				logger.log(Status.PASS, "Element CLicked "+ "- "+by);
+			} catch (Exception e) {
+				logFailAndTakeScreenShot(logger,"WebElementNotClicked","WebElementNotClicked",by);
+				
+			}
+		}
+	    
+	    public static void rightclick(By by, ExtentTest logger) throws IOException {
+	 			try {
+	 				Actions actions = new Actions(driver);
+	 				WebElement elementLocator = driver.findElement(by);
+	 				actions.contextClick(elementLocator).perform();
+	 				logger.log(Status.PASS, "Element CLicked "+ "- "+by);
+	 			} catch (Exception e) {
+	 				logFailAndTakeScreenShot(logger,"WebElementNotClicked","WebElementNotClicked",by);
+	 				
+	 			}
+	 		}
+
+	    public static void reloadPage(ExtentTest logger) {
+			try {
+				driver.navigate().refresh();
+				waitForPageLoad(logger);
+			} catch (Exception e) {
+				logger.log(Status.FAIL, "Error reloading page");
+			}
+		}
+	    
+	    public static void waitForPageLoad(ExtentTest logger) {
+			ExpectedCondition<Boolean> expect = new ExpectedCondition<Boolean>() {
+				public Boolean apply(WebDriver driver) {
+					return ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete");
+				}
+			};
+			Wait<WebDriver> wait = new WebDriverWait(driver,120);
+			try {
+				wait.until(expect);
+			} catch (Exception E) {
+				logger.log(Status.INFO, "Page Load Condition failed. Continuing with test");
+			}
+		}
+	    
+	    public static String capitalize(String str) {
+	        if(str == null || str.isEmpty()) {
+	            return str;
+	        }
+
+	        return str.substring(0, 1).toUpperCase() + str.substring(1);
+	    }
+
+	    public static void datepicker(By by,String date, String Month,String Year,ExtentTest logger) throws IOException
+	    {
+	    	 	driver.findElement(by).click();
+	        	String month_formated = capitalize(Month);
+	        	implicitWait();
+	            String month_xpath = "//select[@class='react-datepicker__month-select']//option";
+	            
+	            driver.findElement(By.xpath(month_xpath)).click();
+	            implicitWait();
+	            List<WebElement> month_element = driver.findElements(By.xpath(month_xpath));
+	            for(WebElement option : month_element)
+	            {
+	            String month = option.getText();
+	           
+	           
+	            if(month.equals(month_formated))
+	            {
+	                option.click();
+	                implicitWait();   
+	                break;
+	            }
+	          
+	            }
+	            
+	            String year_xpath = "//select[@class='react-datepicker__year-select']//option";
+	            driver.findElement(By.xpath(year_xpath)).click();  
+	            implicitWait();
+	            List<WebElement> year_element = driver.findElements(By.xpath(year_xpath));
+	            for(WebElement option : year_element)
+	            {
+	            String year = option.getText();
+	           
+	           
+	            if(year.equals(Year))
+	            {
+	                option.click();
+	                implicitWait();
+	                break;
+	                   
+	            }
+	         
+	            }
+	       
+	        List<WebElement> dates = driver.findElements(By.xpath("//div[@class='react-datepicker']/child::div[2]/child::div[2]/div/div"));
+	       
+	        for(WebElement elem : dates)
+	        {
+	            String datess = elem.getText();
+	           
+	            if(datess.equals(date))
+	            {
+	                elem.click();
+	                implicitWait();
+	                break;
+	            }
+	          
+	           
+	        }
+	        
+	    }
+	    
 	    
 	    
 	    //*******************************  ASSERTIONS  ********************************************
