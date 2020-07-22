@@ -1,59 +1,34 @@
 package com.ToolsQAProject.tests;
 
 import java.io.IOException;
-
-import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
+import java.util.HashMap;
 import org.testng.annotations.Test;
 
+import com.ToolsQAProject.Driver.BrowserFactory;
+import com.ToolsQAProject.Driver.DriverFactory;
 import com.ToolsQAProject.commonDef.CommonDef;
 import com.ToolsQAProject.stepDefinition.ToolsQAProjectStepDefinition;
-import com.ToolsQAProject.utilities.ExtendReport;
-
+import com.ToolsQAProject.utilities.ProjectDataProvider;
 import com.maveric.core.config.ConfigProperties;
 
 
-public class ToolQAProject extends ExtendReport{
-	@BeforeTest
-	public void start() {
-		ExtendReport.startReport();
-	}
-
-	@BeforeMethod
-	public void setup() {
-		CommonDef.driverInit(ConfigProperties.TOOLSQA_URL.get());
-		System.out.println("Started.....");
-	}
+public class ToolQAProject extends TestBase {
 	
-	@Test()
-	public void formsOptionValidation() throws IOException {
-		logger = extent.createTest("Forms");
+	
+	@Test(testName = "Forms", description = "Filling Up Forms", dataProvider = "forms", dataProviderClass = ProjectDataProvider.class)
+	public void formsOptionValidation(HashMap<Object, Object> testData) throws IOException {
+		DriverFactory.getInstance().setDriver(BrowserFactory.createInstance(ConfigProperties.BROWSER.get()));
+		CommonDef.launchURL(ConfigProperties.TOOLSQA_URL.get());
+		System.out.println("TestData - "+testData);
 		ToolsQAProjectStepDefinition steps = new ToolsQAProjectStepDefinition();
-		steps.formsValidation(logger);	
+		steps.formsValidation(testData);	
 	}
 	
+	@Test(testName = "BookStoreApplication", description = "Choose your book")
 	public void bookstoreOptionValidation() throws IOException {
-		logger = extent.createTest("Book Store");
+		DriverFactory.getInstance().setDriver(BrowserFactory.createInstance(ConfigProperties.BROWSER.get()));
+		CommonDef.launchURL(ConfigProperties.TOOLSQA_URL.get());
 		ToolsQAProjectStepDefinition steps = new ToolsQAProjectStepDefinition();
-		steps.bookstoreValidation(logger);	
+		steps.bookstoreValidation();	
 	}
-
-
-	@AfterMethod
-	public void getResult(ITestResult result) throws Exception{
-		
-		System.out.println("Came into After Test"+result);
-		CommonDef.closeBrowser();
-	}
-
-	@AfterTest
-	public void endReport() {
-		extent.flush();
-	}
-
-
-
 }

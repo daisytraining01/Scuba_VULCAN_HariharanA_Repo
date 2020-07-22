@@ -181,7 +181,12 @@ public class ExcelData {
     }
 
 
-    private String readCellByType(Cell cell, CellType type) {
+    private String readCellByType(Cell cell, int cellType) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private String readCellByType(Cell cell, CellType type) {
         String txt = "";
         if (cell != null) {
             switch (type) {

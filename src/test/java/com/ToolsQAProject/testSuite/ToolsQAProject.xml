@@ -1,9 +1,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="ToolsQA  Project Test Suite" parallel="classes" thread-count="2" >
+<suite name="ToolsQA  Project Test Suite" parallel="methods" thread-count="2">
 
-	<test name="ToolsQA  Project Scenarios">
-		
-	
+	<test name="TestCase">		
 		<classes>
 			<class name="com.ToolsQAProject.tests.ToolQAProject"></class>
 		</classes>

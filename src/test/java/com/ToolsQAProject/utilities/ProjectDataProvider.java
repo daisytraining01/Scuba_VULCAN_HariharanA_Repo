@@ -2,15 +2,16 @@ package com.ToolsQAProject.utilities;
 
 import org.testng.annotations.DataProvider;
 
+import com.codoid.products.exception.FilloException;
+
 public class ProjectDataProvider {
 	
-	@DataProvider(name="additionData")
-	public Object[][] getAdditionData() {
+	@DataProvider(name="forms")
+	public Object[][] getFormsData() throws FilloException {
 		return new Object[][] {
-			//{number1 , number2 , Result}
-			{1, 2, 3},
-			{3, 4, 7},
-			{5, 6, 11}
+			{ExcelReader.ReadExcel(System.getProperty("user.dir")+ "/src/test/java/com/ToolsQAProject/resource/TestData.xlsx", "Sheet1", "TC_ID='TC001'")},
+			{ExcelReader.ReadExcel(System.getProperty("user.dir")+ "/src/test/java/com/ToolsQAProject/resource/TestData.xlsx", "Sheet1", "TC_ID='TC002'")}
+			
 		};
 	}
 

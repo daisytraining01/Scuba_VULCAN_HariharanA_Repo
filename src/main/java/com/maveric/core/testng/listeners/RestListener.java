@@ -8,7 +8,7 @@ public class RestListener implements ISuiteListener {
     @Override
     public void onStart(ISuite suite) {
 
-        RestAssured.filters(new RestLogFilter());
+      //  RestAssured.filters(new RestLogFilter());
     }
 
 
