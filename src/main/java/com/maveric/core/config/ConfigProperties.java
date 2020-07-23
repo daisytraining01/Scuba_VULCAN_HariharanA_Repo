@@ -22,6 +22,7 @@ public enum ConfigProperties {
     DATAPROVIDER_COUNT("1"),
     BROWSER("chrome"),
     TOOLSQA_URL("https://demoqa.com/"),
+    PARABANK_URL("https://parabank.parasoft.com/parabank/index.htm"),
     BROWSER_VERSION(""),
     PLATFORM(""),
     PLATFORM_VERSION(""),

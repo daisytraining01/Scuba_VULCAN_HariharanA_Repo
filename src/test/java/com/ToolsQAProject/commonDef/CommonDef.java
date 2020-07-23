@@ -333,12 +333,12 @@ public class CommonDef extends TestBase{
 		try {
 
 			getCurrentDriver().navigate().refresh();
-			waitForPageLoad(testReporter);
+			waitForPageLoad();
 		} catch (Exception e) {
 		}
 	}
 
-	public static void waitForPageLoad(ExtentTest testReporter) {
+	public static void waitForPageLoad() {
 
 		ExpectedCondition<Boolean> expect = new ExpectedCondition<Boolean>() {
 			public Boolean apply(WebDriver driver) {
@@ -434,6 +434,21 @@ public class CommonDef extends TestBase{
 		FileUtils.copyFile(source, finalDestination);
 		return destination;
 	}
+	
+
+	public static String getsubstring(String string, int beginIndex, int lastIndex) throws IOException{
+		String substring ;
+		if (string.length() > lastIndex) 
+		{
+			substring = string.toLowerCase().substring(beginIndex, lastIndex);
+		} 
+		else
+		{
+			substring = string;
+		}
+	
+		return substring;
+	}
 	//*******************************  ASSERTIONS  ********************************************
 
 	public static void assertTextEquals(By by, String expected) throws IOException
@@ -443,8 +458,10 @@ public class CommonDef extends TestBase{
 			actual = getText(by);
 			Assert.assertEquals(actual, expected);
 			testReporter.log(LogStatus.PASS,"Actual- "+actual+" || Expected- "+expected);
+			logPassAndTakeScreenShot("AssertionPass", actual, by);
 		} catch (Exception E) {
 			testReporter.log(LogStatus.FAIL,"Assertion Failed - Actual ->"+actual+ "|| Expected ->"+expected);
+			logFailAndTakeScreenShot("AssertionFail", actual, by);
 		}
 	}
 
@@ -453,9 +470,9 @@ public class CommonDef extends TestBase{
 		try {
 
 			Assert.assertEquals(actual, expected);
-			testReporter.log(LogStatus.PASS,"Actual- "+actual+" || Expected- "+expected);
+			testReporter.log(LogStatus.PASS,"Actual- "+actual+" || Expected- "+expected+ testReporter.addScreenCapture(getScreenShot("AssertionPass")));
 		} catch (Exception E) {
-			testReporter.log(LogStatus.FAIL,"Assertion Failed - Actual ->"+actual+ "|| Expected ->"+expected);
+			testReporter.log(LogStatus.FAIL,"Assertion Failed - Actual ->"+actual+ "|| Expected ->"+expected+ testReporter.addScreenCapture(getScreenShot("AssertionFail")));
 		}
 	}
 

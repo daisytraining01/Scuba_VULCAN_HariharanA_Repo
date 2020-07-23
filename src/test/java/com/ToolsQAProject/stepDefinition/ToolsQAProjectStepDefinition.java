@@ -7,6 +7,7 @@ import com.ToolsQAProject.pages.functions.BookStorePageFunctions;
 import com.ToolsQAProject.pages.functions.ElementPageFunctions;
 import com.ToolsQAProject.pages.functions.FormPageFunctions;
 import com.ToolsQAProject.pages.functions.HomePageFunctions;
+import com.ToolsQAProject.pages.functions.ParabankFunctions;
 import com.relevantcodes.extentreports.ExtentTest;
 
 public class ToolsQAProjectStepDefinition {
@@ -46,6 +47,18 @@ public class ToolsQAProjectStepDefinition {
 		BookStorePageFunctions.deleteallbook();
 		BookStorePageFunctions.logout();
 		
+	}
+
+	public void parabankRegistration(HashMap<Object, Object> testData) throws IOException {
+		// TODO Auto-generated method stub
+		ParabankFunctions.registerParaBank(testData);
+		ParabankFunctions.logoutParaBank(testData);
+		}
+
+	public void parabankLogin(HashMap<Object, Object> testData) throws IOException  {
+		// TODO Auto-generated method stub
+		ParabankFunctions.loginParaBank(testData);
+		ParabankFunctions.logoutParaBank(testData);		
 	}
 
 }
