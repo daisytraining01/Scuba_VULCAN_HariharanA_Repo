@@ -52,13 +52,13 @@ public class ToolsQAProjectStepDefinition {
 	public void parabankRegistration(HashMap<Object, Object> testData) throws IOException {
 		// TODO Auto-generated method stub
 		ParabankFunctions.registerParaBank(testData);
-		ParabankFunctions.logoutParaBank(testData);
+		ParabankFunctions.logoutParaBank();
 		}
 
 	public void parabankLogin(HashMap<Object, Object> testData) throws IOException  {
 		// TODO Auto-generated method stub
 		ParabankFunctions.loginParaBank(testData);
-		ParabankFunctions.logoutParaBank(testData);		
+		ParabankFunctions.logoutParaBank();		
 	}
 
 }

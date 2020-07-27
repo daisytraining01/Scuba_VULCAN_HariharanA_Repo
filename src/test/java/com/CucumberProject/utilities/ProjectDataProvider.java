@@ -1,4 +1,4 @@
-package com.ToolsQAProject.utilities;
+package com.CucumberProject.utilities;
 
 import org.testng.annotations.DataProvider;
 
