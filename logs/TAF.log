@@ -624,3 +624,567 @@
 2020-07-09 14:23:07.485 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
 2020-07-09 14:23:12.469 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
 2020-07-09 14:23:14.777 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-24 12:28:30.400 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-24 12:28:30.406 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-24 12:28:30.406 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-24 12:28:30.409 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-24_Jul_2020_12_28_30_PM
+2020-07-24 12:28:31.155 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should Not be able to login with invalid credentials
+2020-07-24 12:28:39.136 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-24 12:28:47.551 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-24 12:28:47.573 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User Should Not be able to login with invalid credentials
+2020-07-24 12:28:47.578 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should be able to login with valid credentials
+2020-07-24 12:28:51.496 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-24 12:29:00.162 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-24 12:29:00.166 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User Should be able to login with valid credentials
+2020-07-25 12:53:43.292 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 12:53:43.301 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 12:53:43.301 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 12:53:43.305 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_12_53_43_PM
+2020-07-25 12:53:44.632 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should Not be able to login with invalid credentials
+2020-07-25 12:53:49.534 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 12:53:58.294 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 12:53:58.301 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User Should Not be able to login with invalid credentials
+2020-07-25 12:53:58.303 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should be able to login with valid credentials
+2020-07-25 12:54:02.770 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 12:54:12.331 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 12:54:12.335 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User Should be able to login with valid credentials
+2020-07-25 20:24:40.604 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 20:24:40.611 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 20:24:40.612 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 20:24:40.612 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_08_24_40_PM
+2020-07-25 20:27:30.517 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 20:27:30.526 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 20:27:30.526 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 20:27:30.536 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_08_27_30_PM
+2020-07-25 20:27:31.152 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-25 20:27:37.475 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 20:27:39.183 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 20:27:39.197 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User should be able to register, login and logout
+2020-07-25 20:30:54.223 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 20:30:54.230 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 20:30:54.230 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 20:30:54.233 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_08_30_54_PM
+2020-07-25 20:30:54.820 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-25 20:30:59.330 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 20:31:00.786 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 20:31:00.828 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-25 20:33:10.519 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 20:33:10.528 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 20:33:10.528 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 20:33:10.532 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_08_33_10_PM
+2020-07-25 20:33:11.069 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-25 20:33:15.455 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 20:33:17.786 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 20:33:17.809 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-25 20:49:58.851 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 20:49:58.857 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 20:49:58.857 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 20:49:58.860 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_08_49_58_PM
+2020-07-25 20:49:59.422 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-25 20:50:04.092 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 20:50:06.298 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 20:50:06.313 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-25 20:50:06.320 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should Not be able to login with invalid credentials
+2020-07-25 20:50:10.402 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 20:50:11.909 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 20:50:11.912 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User Should Not be able to login with invalid credentials
+2020-07-25 20:50:11.914 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should be able to login with valid credentials
+2020-07-25 20:50:15.924 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 20:50:17.418 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 20:50:17.434 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User Should be able to login with valid credentials
+2020-07-25 20:51:19.198 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 20:51:19.204 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 20:51:19.204 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 20:51:19.208 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_08_51_19_PM
+2020-07-25 20:51:19.780 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-25 20:51:24.199 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 20:51:26.242 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 20:51:26.275 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-25 20:51:26.282 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should Not be able to login with invalid credentials
+2020-07-25 20:51:30.211 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 20:51:31.853 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 20:51:31.867 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User Should Not be able to login with invalid credentials
+2020-07-25 20:51:31.872 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should be able to login with valid credentials
+2020-07-25 20:51:35.901 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 20:51:37.438 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 20:51:37.447 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User Should be able to login with valid credentials
+2020-07-25 20:51:54.021 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 20:51:54.028 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 20:51:54.029 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 20:51:54.032 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_08_51_54_PM
+2020-07-25 20:51:54.608 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-25 20:51:59.147 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 20:52:01.390 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 20:52:01.398 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-25 20:52:01.399 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should Not be able to login with invalid credentials
+2020-07-25 20:52:05.422 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 20:52:06.931 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 20:52:06.939 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User Should Not be able to login with invalid credentials
+2020-07-25 20:52:06.953 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should be able to login with valid credentials
+2020-07-25 20:52:11.029 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 20:52:12.565 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 20:52:12.575 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User Should be able to login with valid credentials
+2020-07-25 20:54:41.405 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 20:54:41.414 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 20:54:41.414 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 20:54:41.422 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_08_54_41_PM
+2020-07-25 20:54:41.976 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-25 20:54:46.276 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 20:54:48.630 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 20:54:48.685 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-25 20:59:02.504 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 20:59:02.516 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 20:59:02.517 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 20:59:02.518 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_08_59_02_PM
+2020-07-25 20:59:03.033 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-25 20:59:07.508 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 20:59:09.603 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 20:59:09.614 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-25 21:01:05.755 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 21:01:05.765 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 21:01:05.766 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 21:01:05.768 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_09_01_05_PM
+2020-07-25 21:01:06.319 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-25 21:01:10.743 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 21:01:19.013 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotjava.lang.NullPointerException
+2020-07-25 21:01:19.014 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotjava.lang.NullPointerException
+2020-07-25 21:01:20.826 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 21:01:20.837 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-25 21:07:27.037 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 21:07:27.045 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 21:07:27.046 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 21:07:27.048 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_09_07_27_PM
+2020-07-25 21:07:27.605 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-25 21:07:32.059 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 21:07:54.046 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 21:07:54.052 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User should be able to register, login and logout
+2020-07-25 21:09:25.686 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 21:09:25.694 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 21:09:25.694 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 21:09:25.694 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_09_09_25_PM
+2020-07-25 21:09:26.208 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-25 21:09:30.581 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 21:09:38.508 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 21:09:38.517 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User should be able to register, login and logout
+2020-07-25 21:11:45.453 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 21:11:45.462 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 21:11:45.462 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 21:11:45.472 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_09_11_45_PM
+2020-07-25 21:11:46.086 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should Not be able to login with invalid credentials
+2020-07-25 21:11:50.534 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 21:12:08.950 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 21:12:08.960 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User Should Not be able to login with invalid credentials
+2020-07-25 21:12:08.966 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should be able to login with valid credentials
+2020-07-25 21:12:12.910 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 21:12:32.340 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 21:12:32.349 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User Should be able to login with valid credentials
+2020-07-25 21:13:39.045 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 21:13:39.056 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 21:13:39.057 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 21:13:39.060 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_09_13_39_PM
+2020-07-25 21:13:39.597 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should Not be able to login with invalid credentials
+2020-07-25 21:13:44.063 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 21:13:53.514 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 21:13:53.528 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User Should Not be able to login with invalid credentials
+2020-07-25 21:13:53.538 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should be able to login with valid credentials
+2020-07-25 21:13:57.713 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 21:14:13.926 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 21:14:13.934 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User Should be able to login with valid credentials
+2020-07-25 21:19:07.782 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 21:19:07.789 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 21:19:07.789 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 21:19:07.792 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_09_19_07_PM
+2020-07-25 21:19:08.333 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should Not be able to login with invalid credentials
+2020-07-25 21:19:12.936 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 21:20:16.783 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 21:20:16.789 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User Should Not be able to login with invalid credentials
+2020-07-25 21:20:16.790 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should be able to login with valid credentials
+2020-07-25 21:20:20.705 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 21:20:33.615 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 21:20:33.624 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User Should be able to login with valid credentials
+2020-07-25 21:21:13.349 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 21:21:13.358 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 21:21:13.358 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 21:21:13.361 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_09_21_13_PM
+2020-07-25 21:21:13.882 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-25 21:21:18.228 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 21:21:28.234 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 21:21:28.237 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User should be able to register, login and logout
+2020-07-25 21:21:49.165 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 21:21:49.178 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 21:21:49.179 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 21:21:49.181 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_09_21_49_PM
+2020-07-25 21:21:49.791 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should Not be able to login with invalid credentials
+2020-07-25 21:21:54.095 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 21:22:16.499 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 21:22:16.503 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User Should Not be able to login with invalid credentials
+2020-07-25 21:22:16.506 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should be able to login with valid credentials
+2020-07-25 21:22:20.386 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 21:22:39.911 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 21:22:39.917 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User Should be able to login with valid credentials
+2020-07-25 21:29:26.654 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 21:29:26.660 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 21:29:26.660 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 21:29:26.663 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_09_29_26_PM
+2020-07-25 21:29:27.456 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-25 21:29:32.861 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 21:29:39.843 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 21:29:39.847 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User should be able to register, login and logout
+2020-07-25 21:32:39.030 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 21:32:39.036 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 21:32:39.036 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 21:32:39.040 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_09_32_39_PM
+2020-07-25 21:32:39.776 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-25 21:32:44.820 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 21:32:52.558 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 21:32:52.578 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User should be able to register, login and logout
+2020-07-25 22:26:59.679 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-25 22:26:59.688 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-25 22:26:59.689 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-25 22:26:59.692 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-25_Jul_2020_10_26_59_PM
+2020-07-25 22:27:00.270 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-25 22:27:04.715 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-25 22:28:13.488 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-25 22:28:13.497 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User should be able to register, login and logout
+2020-07-26 00:36:03.005 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-26 00:36:03.010 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-26 00:36:03.010 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-26 00:36:03.013 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jul_2020_12_36_03_AM
+2020-07-26 00:36:03.542 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should Not be able to login with invalid credentials
+2020-07-26 00:36:07.760 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-26 00:36:15.295 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-26 00:36:15.305 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User Should Not be able to login with invalid credentials
+2020-07-26 00:36:50.087 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-26 00:36:50.092 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-26 00:36:50.092 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-26 00:36:50.094 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jul_2020_12_36_50_AM
+2020-07-26 00:36:50.557 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should be able to login with valid credentials
+2020-07-26 00:36:54.650 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-26 00:37:03.133 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-26 00:37:03.148 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User Should be able to login with valid credentials
+2020-07-26 12:22:21.627 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-26 12:22:21.634 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-26 12:22:21.635 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-26 12:22:21.638 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jul_2020_12_22_21_PM
+2020-07-26 12:22:22.251 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should Not be able to login with invalid credentials
+2020-07-26 12:22:26.782 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-26 12:22:40.753 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-26 12:22:40.756 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User Should Not be able to login with invalid credentials
+2020-07-26 12:22:40.757 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should be able to login with valid credentials
+2020-07-26 12:22:44.613 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-26 12:22:55.583 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-26 12:22:55.590 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User Should be able to login with valid credentials
+2020-07-26 12:23:49.940 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-26 12:23:49.946 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-26 12:23:49.947 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-26 12:23:49.950 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jul_2020_12_23_49_PM
+2020-07-26 12:23:50.653 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should Not be able to login with invalid credentials
+2020-07-26 12:23:55.080 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-26 12:24:09.903 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-26 12:24:09.910 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User Should Not be able to login with invalid credentials
+2020-07-26 12:24:09.918 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User Should be able to login with valid credentials
+2020-07-26 12:24:13.856 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-26 12:24:26.855 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-26 12:24:26.861 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User Should be able to login with valid credentials
+2020-07-26 15:21:50.386 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-26 15:21:50.392 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-26 15:21:50.392 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-26 15:21:50.395 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jul_2020_03_21_50_PM
+2020-07-26 15:21:51.053 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-26 15:21:56.003 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-26 15:21:58.408 [TestNG-test=Default test-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-26 15:21:58.411 [TestNG-test=Default test-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User should be able to register, login and logout
+2020-07-26 23:32:01.648 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-26 23:32:01.667 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-26 23:32:01.667 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-26 23:32:01.668 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jul_2020_11_32_01_PM
+2020-07-26 23:32:02.303 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-26 23:32:07.322 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-26 23:32:08.896 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-26 23:32:08.900 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-26 23:35:50.609 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-26 23:35:50.617 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-26 23:35:50.617 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-26 23:35:50.620 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jul_2020_11_35_50_PM
+2020-07-26 23:35:51.180 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-26 23:35:56.015 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-26 23:35:57.897 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-26 23:35:57.939 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-26 23:36:54.184 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-26 23:36:54.199 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-26 23:36:54.199 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-26 23:36:54.202 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jul_2020_11_36_54_PM
+2020-07-26 23:36:54.775 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-26 23:36:59.803 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-26 23:37:02.044 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-26 23:37:02.055 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-26 23:38:07.831 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-26 23:38:07.850 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-26 23:38:07.851 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-26 23:38:07.854 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jul_2020_11_38_07_PM
+2020-07-26 23:38:08.409 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-26 23:38:13.580 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-26 23:38:15.311 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-26 23:38:15.327 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-26 23:51:18.890 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-26 23:51:18.901 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-26 23:51:18.902 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-26 23:51:18.905 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jul_2020_11_51_18_PM
+2020-07-26 23:51:19.457 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-26 23:51:24.437 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-26 23:51:26.586 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-26 23:51:26.595 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-26 23:53:13.076 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-26 23:53:13.091 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-26 23:53:13.092 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-26 23:53:13.095 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jul_2020_11_53_13_PM
+2020-07-26 23:53:13.618 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-26 23:53:18.468 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-26 23:53:19.789 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-26 23:53:19.802 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User should be able to register, login and logout
+2020-07-26 23:54:35.969 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-26 23:54:35.979 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-26 23:54:35.979 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-26 23:54:35.980 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jul_2020_11_54_35_PM
+2020-07-26 23:54:36.523 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-26 23:54:41.302 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-26 23:54:42.851 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-26 23:54:42.863 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-26 23:57:34.525 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-26 23:57:34.533 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-26 23:57:34.534 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-26 23:57:34.543 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-26_Jul_2020_11_57_34_PM
+2020-07-26 23:57:35.074 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-26 23:57:39.885 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-26 23:57:42.006 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-26 23:57:42.013 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User should be able to register, login and logout
+2020-07-27 00:54:09.318 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-27 00:54:09.325 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-27 00:54:09.326 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-27 00:54:09.329 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-27_Jul_2020_12_54_09_AM
+2020-07-27 00:54:09.877 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-27 00:54:14.648 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 00:54:24.264 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-27 00:54:24.273 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-27 00:56:38.588 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-27 00:56:38.602 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-27 00:56:38.602 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-27 00:56:38.605 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-27_Jul_2020_12_56_38_AM
+2020-07-27 00:56:39.128 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-27 00:56:44.042 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 00:57:54.059 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-27 00:57:54.064 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-27 01:16:17.751 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-27 01:16:17.762 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-27 01:16:17.763 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-27 01:16:17.766 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-27_Jul_2020_01_16_17_AM
+2020-07-27 01:16:18.448 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-27 01:16:24.088 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 01:16:28.119 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-27 01:16:28.126 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-27 01:18:36.813 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-27 01:18:36.822 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-27 01:18:36.822 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-27 01:18:36.826 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-27_Jul_2020_01_18_36_AM
+2020-07-27 01:18:37.489 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-27 01:18:43.026 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 01:18:51.788 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.web.WebActions - Failed Reasonjava.lang.NullPointerException
+2020-07-27 01:19:26.451 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.web.WebActions - Failed Reasonorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@value='Register']"}
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP724', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59319}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a430423e3cd678549a550096bf9b9a75
+*** Element info: {Using=xpath, value=//*[@value='Register']}By.xpath: //*[@value='Register']
+2020-07-27 01:19:32.462 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-27 01:19:32.472 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-27 01:36:02.815 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-27 01:36:02.822 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-27 01:36:02.823 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-27 01:36:02.826 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-27_Jul_2020_01_36_02_AM
+2020-07-27 01:36:03.479 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-27 01:36:09.269 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 01:37:12.447 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-27 01:37:12.458 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-27 01:40:25.687 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-27 01:40:25.699 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-27 01:40:25.700 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-27 01:40:25.701 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-27_Jul_2020_01_40_25_AM
+2020-07-27 01:40:26.221 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-27 01:40:30.598 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 01:41:05.629 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-27 01:41:05.632 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-27 01:42:38.968 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-27 01:42:38.974 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-27 01:42:38.974 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-27 01:42:38.975 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-27_Jul_2020_01_42_38_AM
+2020-07-27 01:42:39.431 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-27 01:42:43.687 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 01:43:48.769 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.web.WebActions - Failed Reasonorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[contains(text(),'Log Out')] (tried for 30 second(s) with 500 milliseconds interval)By.xpath: //a[contains(text(),'Log Out')]
+2020-07-27 01:44:18.805 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.web.WebActions - Failed Reasonorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Log Out')]"}
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP724', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60226}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 19575a45190560216e02cc9947e092e4
+*** Element info: {Using=xpath, value=//a[contains(text(),'Log Out')]}By.xpath: //a[contains(text(),'Log Out')]
+2020-07-27 01:44:20.398 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-27 01:44:20.403 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User should be able to register, login and logout
+2020-07-27 01:46:35.770 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-27 01:46:35.788 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-27 01:46:35.788 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-27 01:46:35.790 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-27_Jul_2020_01_46_35_AM
+2020-07-27 01:46:36.217 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-27 01:46:40.499 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 01:47:12.726 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-27 01:47:12.733 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  User should be able to register, login and logout
+2020-07-27 01:48:05.788 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-27 01:48:05.799 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-27 01:48:05.799 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-27 01:48:05.801 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-27_Jul_2020_01_48_05_AM
+2020-07-27 01:48:06.227 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-27 01:48:10.495 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 01:48:49.137 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-27 01:48:49.144 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User should be able to register, login and logout
+2020-07-27 01:51:36.375 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-27 01:51:36.393 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-27 01:51:36.393 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-27 01:51:36.395 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-27_Jul_2020_01_51_36_AM
+2020-07-27 01:51:36.822 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-27 01:51:41.090 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 01:52:19.955 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-27 01:52:19.961 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User should be able to register, login and logout
+2020-07-27 01:52:19.976 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START User should be able to register, login and logout
+2020-07-27 01:52:23.741 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 01:53:01.278 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-27 01:53:01.283 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  User should be able to register, login and logout
+2020-07-27 01:56:06.184 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-27 01:56:06.199 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-27 01:56:06.199 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-27 01:56:06.200 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-27_Jul_2020_01_56_06_AM
+2020-07-27 01:56:06.663 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START TestCase ID - TC001 || User should be able to register, login and logout
+2020-07-27 01:56:10.858 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 01:56:43.592 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-27 01:56:43.597 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  TestCase ID - TC001 || User should be able to register, login and logout
+2020-07-27 01:56:43.597 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START TestCase ID - TC002 || User should be able to register, login and logout
+2020-07-27 01:56:47.462 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 01:56:52.455 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotorg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP724', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60880}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c070679ac1ac474e214e237286c93486
+2020-07-27 01:56:52.465 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotorg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP724', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60880}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c070679ac1ac474e214e237286c93486
+2020-07-27 01:56:52.474 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotorg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP724', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60880}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c070679ac1ac474e214e237286c93486
+2020-07-27 01:56:53.463 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-27 01:56:53.467 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  TestCase ID - TC002 || User should be able to register, login and logout
+2020-07-27 01:57:41.968 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-27 01:57:41.980 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-27 01:57:41.980 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-27 01:57:41.981 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-27_Jul_2020_01_57_41_AM
+2020-07-27 01:57:42.416 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START TestCase ID - TC001 || User should be able to register, login and logout
+2020-07-27 01:57:46.617 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 01:58:28.468 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-27 01:58:28.471 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  TestCase ID - TC001 || User should be able to register, login and logout
+2020-07-27 01:58:28.471 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START TestCase ID - TC002 || User should be able to register, login and logout
+2020-07-27 01:58:32.278 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 01:59:09.754 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-27 01:59:09.760 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  TestCase ID - TC002 || User should be able to register, login and logout
+2020-07-27 03:25:55.171 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-27 03:25:55.183 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-27 03:25:55.184 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-27 03:25:55.185 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-27_Jul_2020_03_25_55_AM
+2020-07-27 03:25:57.121 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START TestCase ID - TC001 || User should be able to register, login and logout
+2020-07-27 03:26:01.776 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 12:02:17.874 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-27 12:02:17.882 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-27 12:02:17.882 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-27 12:02:17.887 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-27_Jul_2020_12_02_17_PM
+2020-07-27 12:02:20.142 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START TestCase ID - TC001 || User should be able to register, login and logout
+2020-07-27 12:02:25.408 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 12:02:28.180 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.data.Database - java.sql.SQLException: Before start of result set
+2020-07-27 12:28:02.987 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-27 12:28:02.996 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-27 12:28:02.996 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-27 12:28:03.000 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-27_Jul_2020_12_28_02_PM
+2020-07-27 12:28:05.252 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START TestCase ID - TC001 || User should be able to register, login and logout
+2020-07-27 12:28:10.417 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 12:28:12.665 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.data.Database - java.lang.NullPointerException
+2020-07-27 12:30:07.605 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-27 12:30:07.610 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  TestCase ID - TC001 || User should be able to register, login and logout
+2020-07-27 12:30:07.612 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START TestCase ID - TC002 || User should be able to register, login and logout
+2020-07-27 12:30:13.802 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 12:30:13.981 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.data.Database - java.lang.NullPointerException
+2020-07-27 12:31:07.401 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-27 12:31:07.410 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-27 12:31:07.410 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-27 12:31:07.416 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-27_Jul_2020_12_31_07_PM
+2020-07-27 12:31:09.427 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START TestCase ID - TC001 || User should be able to register, login and logout
+2020-07-27 12:31:14.339 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 12:33:11.106 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.web.WebActions - Failed Reasonorg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP724', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61045}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 955d32b85bdb7f5d5a999cfb7bcee1ae
+*** Element info: {Using=xpath, value=//*[@id='rightPanel']//h1}By.xpath: //*[@id='rightPanel']//h1
+2020-07-27 12:33:11.233 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotorg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP724', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61045}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 955d32b85bdb7f5d5a999cfb7bcee1ae
+2020-07-27 12:33:12.629 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-27 12:33:12.636 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  TestCase ID - TC001 || User should be able to register, login and logout
+2020-07-27 12:33:12.641 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START TestCase ID - TC002 || User should be able to register, login and logout
+2020-07-27 12:33:18.852 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 13:32:37.169 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-27 13:32:37.179 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-27 13:32:37.179 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-27 13:32:37.183 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-27_Jul_2020_01_32_37_PM
+2020-07-27 13:32:39.763 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START TestCase ID - TC001 || User should be able to register, login and logout
+2020-07-27 13:32:44.814 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 13:32:49.572 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-27 13:32:49.575 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  TestCase ID - TC001 || User should be able to register, login and logout
+2020-07-27 13:32:49.575 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START TestCase ID - TC002 || User should be able to register, login and logout
+2020-07-27 13:32:54.539 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 13:32:55.547 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-27 13:32:55.556 [TestNG-test=TestNG Test1-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  TestCase ID - TC002 || User should be able to register, login and logout
+2020-07-27 13:35:09.305 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-27 13:35:09.312 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-27 13:35:09.312 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-27 13:35:09.317 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-27_Jul_2020_01_35_09_PM
+2020-07-27 13:35:11.489 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START TestCase ID - TC001 || User should be able to register, login and logout
+2020-07-27 13:35:16.433 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 13:40:59.708 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-27_Jul_2020_01_40_59_PM
+2020-07-27 13:40:59.746 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-07-27 13:40:59.746 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-07-27 13:40:59.752 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-07-27 13:41:02.394 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START TestCase ID - TC001 || User should be able to register, login and logout
+2020-07-27 13:41:08.135 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-07-27 13:42:13.281 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-07-27 13:42:13.287 [TestNG-test=TestNG Test1-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  TestCase ID - TC001 || User should be able to register, login and logout

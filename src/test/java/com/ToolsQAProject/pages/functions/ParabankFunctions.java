@@ -38,7 +38,7 @@ public class ParabankFunctions {
 		CommonDef.waitForPageLoad();	
 	}
 	
-	public static void logoutParaBank(HashMap<Object, Object> testData) throws IOException {
+	public static void logoutParaBank() throws IOException {
 		// TODO Auto-generated method stub
 		CommonDef.waitForPageLoad();
 		CommonDef.waitVisible(ParabankElement.parabank_logout_link());

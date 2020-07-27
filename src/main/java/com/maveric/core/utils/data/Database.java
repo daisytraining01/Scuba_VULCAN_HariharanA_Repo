@@ -6,6 +6,7 @@ import org.apache.logging.log4j.Logger;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 public class Database {
@@ -109,6 +110,40 @@ public class Database {
             return null;
         }
     }
+    
+    public HashMap<Object, Object> readDataFromDB(String query)
+    {
+    	HashMap<Object, Object> testdata = new HashMap<Object, Object>();
+    	verifyQuery(query);
+    	try {
+    		Connection connection = getConnection();
+            PreparedStatement statement = connection.prepareStatement(query);
+            ResultSet rs = statement.executeQuery();
+            System.out.println("DB Connection Establised..");
+            
+            if (rs != null) {
+    			ArrayList<String> colname = new ArrayList<String>();
+    			 for (int i = 1; i <= rs.getMetaData().getColumnCount(); i++) {
+    				 colname.add(rs.getMetaData().getColumnLabel(i));
+    				 System.out.println("DB Column name.."+colname);
+    	            }
+    			while (rs.next()) {
+    				for (int i = 0; i < colname.size(); i++) {
+    					String header = colname.get(i);
+    					String value = rs.getString(header);
+    					 System.out.println("DB Header.."+header);
+    					 System.out.println("DB Value.."+value);
+    					testdata.put(header, value);
+    				}
+    			}
+    		}
+            return testdata;
+		} catch (Exception e) {
+			 logger.error(e);
+			 return null;
+		}
+    	
+    }
 
     private void getColumns(String query) {
         ArrayList<String> columns = new ArrayList<>();
@@ -128,6 +163,9 @@ public class Database {
         }
 
     }
+    
+    
+    
 
     private static void verifyQuery(String query) {
         final String[] keywords = {"drop", "delete", "truncate", "update"};
@@ -138,5 +176,7 @@ public class Database {
         });
 
     }
+    
+    
 
 }

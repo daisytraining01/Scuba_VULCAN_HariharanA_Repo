@@ -15,7 +15,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class WebActions {
     private final static AtomicInteger counter = new AtomicInteger();
-    private final static Logger logger = LogManager.getLogger();
+    protected final static Logger logger = LogManager.getLogger();
     public WebDriver driver;
 
     public void logScreenshot(String name) {
