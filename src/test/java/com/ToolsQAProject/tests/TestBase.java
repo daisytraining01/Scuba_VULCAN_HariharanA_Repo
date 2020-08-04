@@ -8,9 +8,12 @@ import com.ToolsQAProject.Driver.DriverFactory;
 import com.ToolsQAProject.utilities.ExcelReader;
 import com.ToolsQAProject.utilities.ITestReporter;
 import com.ToolsQAProject.utilities.Reporter;
+import com.ToolsQAProject.utilities.logger.LoggerManager;
 import com.codoid.products.exception.FilloException;
 import com.maveric.core.config.ConfigProperties;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
@@ -22,6 +25,7 @@ public class TestBase {
 	
 public static ITestReporter testReporter;
 //public static HashMap<String, String> testData;
+	public static Logger logger = LogManager.getLogger(TestBase.class);;
 
 	@BeforeSuite
 	public void startReport()
@@ -40,13 +44,26 @@ public static ITestReporter testReporter;
 	public synchronized void methodSetup(Method caller) throws FilloException
 	{
 		testReporter.startTest(getTestName(caller), getTestDescription(caller));
+		logger.info("STARTED ||"+ getTestName(caller)+getTestDescription(caller));
 		//testData = ExcelReader.ReadExcel(System.getProperty("user.dir")+ "/src/test/java/com/ToolsQAProject/resource/TestData.xlsx", getTestDescription(caller), "ScenarioID='"+getTestName(caller)+"'");
 	}
 	
 	@AfterMethod
-	public synchronized void afterMethod()
+	public synchronized void afterMethod(Method caller)
 	{
-		
+		System.out.println("Run Status"+testReporter.getRunStatus());
+		if(testReporter.getRunStatus().toString().toLowerCase() == "pass")
+		{
+			logger.info("PASS || "+ getTestName(caller)+getTestDescription(caller));
+		}
+		if(testReporter.getRunStatus().toString().toLowerCase() == "fail")
+		{
+			logger.error("FAIL || "+ getTestName(caller)+getTestDescription(caller));
+		}
+		if(testReporter.getRunStatus().toString().toLowerCase() == "skip")
+		{
+			logger.warn("SKIP || "+ getTestName(caller)+getTestDescription(caller));
+		}
 		testReporter.endTest();
 		Reporter.flushReport();
 		DriverFactory.getInstance().removeDriver();

@@ -1,12 +1,16 @@
 package com.ToolsQAProject.utilities;
+import java.io.IOException;
 import java.util.Date;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+
+import org.testng.ITestResult;
+
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import com.relevantcodes.extentreports.model.ITest;
-
+import com.ToolsQAProject.commonDef.CommonDef;
 import com.ToolsQAProject.utilities.ITestReporter;
 
 public class TestReporter implements ITestReporter {
@@ -135,5 +139,5 @@ public class TestReporter implements ITestReporter {
 		}
 		throw new Error("Trying to get an extent test which is not yet created. ThreadId: " + threadId);
 	}
-
+	
 }

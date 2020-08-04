@@ -1,4 +1,4 @@
-@me	
+@me
 Feature: Parabank Website Features
 	
   Scenario Outline: TestCase ID - <testCaseID> || User should be able to register, login and logout	
@@ -13,12 +13,15 @@ Feature: Parabank Website Features
   	Then System should logout the session
   	When I login with registered details
   	Then System should take to parabank home page
-  	
   		
   Examples:
   |testCaseID		| moduleName 	| tableNameOnDB 		|
-  |TC001				|	parabank		|	register_details	|
- # |TC002				|	parabank		|	register_details	|
+#  |TC001				|	parabank		|	register_details	|
+# 	|TC002				|	parabank		|	register_details	|
+# 	|TC003				|	parabank		|	register_details	|
+# 	|TC004				|	parabank		|	register_details	|
+ 	|TC005				|	parabank		|	register_details	|
+# 	|TC006				|	parabank		|	register_details	|
   	
     
 

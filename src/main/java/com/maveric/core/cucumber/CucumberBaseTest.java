@@ -3,7 +3,11 @@
 package com.maveric.core.cucumber;
 
 import com.maveric.core.testng.BaseTest;
+import com.maveric.core.testng.listeners.DriverListener;
 import com.maveric.core.testng.listeners.ReportListener;
+import com.maveric.core.testng.listeners.RestListener;
+import com.maveric.core.testng.listeners.TestListener;
+
 import io.cucumber.testng.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -18,7 +22,9 @@ import java.lang.reflect.Method;
         "json:target/cucumber.json"
 }, extraGlue = "com.maveric.core.cucumber"
 )
-public class CucumberBaseTest extends BaseTest implements ITest {
+
+@Listeners({TestListener.class, ReportListener.class, DriverListener.class, RestListener.class})
+public class CucumberBaseTest implements ITest {
 
     private static final Logger logger = LogManager.getLogger();
 
@@ -34,7 +40,6 @@ public class CucumberBaseTest extends BaseTest implements ITest {
     @BeforeMethod(alwaysRun = true)
     public void setTestName(Method method, Object[] testData) {
         Pickle pickle = ((PickleWrapper) testData[0]).getPickle();
-
         String scenarioName = pickle.getName();
         this.scenarioName.set(scenarioName);
         logger.info("START {}", scenarioName);
