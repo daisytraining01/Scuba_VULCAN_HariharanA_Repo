@@ -1,0 +1,92 @@
+------------------------------------Overview Analysis--------------------------
+
+ Total No of cases Exectuted	 : 31
+ Total No of Passed cases	 : 14
+ Total No of Failed cases	 : 11
+ Total No of Skipped cases	 : 0
+ 
+
+------------------------------------Detailed Analysis--------------------------
+
+ 
+	** Passed Cases **
+Case Index: 1
+Descripition of Case:	 2020-08-03 20:30:51.602 TestNG-PoolService-0 INFO  com.ToolsQAProject.tests.TestBase - PASS || FormsFilling Up Forms
+
+ Case Index: 2
+Descripition of Case:	 2020-08-11 19:01:03.802 TestNG-PoolService-1 INFO  com.ToolsQAProject.tests.TestBase - PASS || FormsFilling Up Forms
+
+ Case Index: 3
+Descripition of Case:	 2020-08-11 19:01:09.777 TestNG-PoolService-0 INFO  com.ToolsQAProject.tests.TestBase - PASS || FormsFilling Up Forms
+
+ Case Index: 4
+Descripition of Case:	 2020-08-11 19:10:12.671 TestNG-PoolService-0 INFO  com.ToolsQAProject.tests.TestBase - PASS || FormsFilling Up Forms
+
+ Case Index: 5
+Descripition of Case:	 2020-08-11 19:10:25.581 TestNG-PoolService-1 INFO  com.ToolsQAProject.tests.TestBase - PASS || FormsFilling Up Forms
+
+ Case Index: 6
+Descripition of Case:	 2020-08-11 19:13:16.968 TestNG-PoolService-0 INFO  com.ToolsQAProject.tests.TestBase - PASS || Parabank-Registration-LoginFilling Up Forms
+
+ Case Index: 7
+Descripition of Case:	 2020-08-11 19:13:22.996 TestNG-PoolService-1 INFO  com.ToolsQAProject.tests.TestBase - PASS || Parabank-Registration-LoginFilling Up Forms
+
+ Case Index: 8
+Descripition of Case:	 2020-08-11 19:13:38.888 TestNG-PoolService-0 INFO  com.ToolsQAProject.tests.TestBase - PASS || FormsFilling Up Forms
+
+ Case Index: 9
+Descripition of Case:	 2020-08-11 19:13:46.130 TestNG-PoolService-1 INFO  com.ToolsQAProject.tests.TestBase - PASS || FormsFilling Up Forms
+
+ Case Index: 10
+Descripition of Case:	 2020-08-12 02:01:42.113 TestNG-PoolService-0 INFO  com.ToolsQAProject.tests.TestBase - PASS || FormsFilling Up Forms
+
+ Case Index: 11
+Descripition of Case:	 2020-08-12 02:02:15.777 TestNG-PoolService-1 INFO  com.ToolsQAProject.tests.TestBase - PASS || Parabank-Registration-LoginFilling Up Forms
+
+ Case Index: 12
+Descripition of Case:	 2020-08-12 02:02:16.932 TestNG-PoolService-0 INFO  com.ToolsQAProject.tests.TestBase - PASS || Parabank-Registration-LoginFilling Up Forms
+
+ Case Index: 13
+Descripition of Case:	 2020-08-12 04:06:51.657 TestNG-PoolService-1 INFO  com.ToolsQAProject.tests.TestBase - PASS || Parabank-Registration-LoginFilling Up Forms
+
+ Case Index: 14
+Descripition of Case:	 2020-08-12 04:07:00.841 TestNG-PoolService-0 INFO  com.ToolsQAProject.tests.TestBase - PASS || FormsFilling Up Forms
+
+ 
+	** Failed Cases **
+Case Index: 1
+Descripition of Case:	 2020-08-11 19:07:58.653 TestNG-PoolService-1 ERROR com.ToolsQAProject.tests.TestBase - FAIL || FormsFilling Up Forms
+
+ Case Index: 2
+Descripition of Case:	 2020-08-11 19:08:10.204 TestNG-PoolService-0 ERROR com.ToolsQAProject.tests.TestBase - FAIL || FormsFilling Up Forms
+
+ Case Index: 3
+Descripition of Case:	 2020-08-11 19:10:21.595 TestNG-test=TestCase-1 ERROR com.ToolsQAProject.tests.TestBase - FAIL || BookStoreApplicationChoose your book
+
+ Case Index: 4
+Descripition of Case:	 2020-08-11 19:10:39.851 TestNG-PoolService-1 ERROR com.ToolsQAProject.tests.TestBase - FAIL || Parabank-Registration-LoginFilling Up Forms
+
+ Case Index: 5
+Descripition of Case:	 2020-08-11 19:10:43.972 TestNG-PoolService-0 ERROR com.ToolsQAProject.tests.TestBase - FAIL || Parabank-Registration-LoginFilling Up Forms
+
+ Case Index: 6
+Descripition of Case:	 2020-08-11 19:13:44.939 TestNG-test=TestCase-1 ERROR com.ToolsQAProject.tests.TestBase - FAIL || BookStoreApplicationChoose your book
+
+ Case Index: 7
+Descripition of Case:	 2020-08-12 02:00:57.960 main ERROR com.ToolsQAProject.tests.TestBase - FAIL || BookStoreApplicationChoose your book
+
+ Case Index: 8
+Descripition of Case:	 2020-08-12 02:01:46.731 TestNG-PoolService-1 ERROR com.ToolsQAProject.tests.TestBase - FAIL || FormsFilling Up Forms
+
+ Case Index: 9
+Descripition of Case:	 2020-08-12 04:06:43.595 TestNG-PoolService-0 ERROR com.ToolsQAProject.tests.TestBase - FAIL || Parabank-Registration-LoginFilling Up Forms
+
+ Case Index: 10
+Descripition of Case:	 2020-08-12 04:06:57.997 TestNG-test=TestCase-1 ERROR com.ToolsQAProject.tests.TestBase - FAIL || BookStoreApplicationChoose your book
+
+ Case Index: 11
+Descripition of Case:	 2020-08-12 04:07:02.402 TestNG-PoolService-1 ERROR com.ToolsQAProject.tests.TestBase - FAIL || FormsFilling Up Forms
+
+ 
+	** Skipped Cases **
+

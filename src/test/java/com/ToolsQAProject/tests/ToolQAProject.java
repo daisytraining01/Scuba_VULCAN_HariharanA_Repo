@@ -23,7 +23,7 @@ public class ToolQAProject extends TestBase {
 		steps.formsValidation(testData);	
 	}
 	
-//	@Test(testName = "BookStoreApplication", description = "Choose your book")
+	//@Test(testName = "BookStoreApplication", description = "Choose your book")
 	public void bookstoreOptionValidation() throws IOException {
 		DriverFactory.getInstance().setDriver(BrowserFactory.createInstance(ConfigProperties.BROWSER.get()));
 		CommonDef.launchURL(ConfigProperties.TOOLSQA_URL.get());
@@ -31,7 +31,7 @@ public class ToolQAProject extends TestBase {
 		steps.bookstoreValidation();	
 	}
 	
-//	@Test(testName = "Parabank-Registration-Login", description = "Filling Up Forms", dataProvider = "parabank", dataProviderClass = ProjectDataProvider.class)
+	@Test(testName = "Parabank-Registration-Login", description = "Filling Up Forms", dataProvider = "parabank", dataProviderClass = ProjectDataProvider.class)
 	public void parabankRegistration(HashMap<Object, Object> testData) throws IOException {
 		DriverFactory.getInstance().setDriver(BrowserFactory.createInstance(testData.get("Browser").toString()));
 		CommonDef.launchURL(ConfigProperties.PARABANK_URL.get());

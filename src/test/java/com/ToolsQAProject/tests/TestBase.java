@@ -8,6 +8,7 @@ import com.ToolsQAProject.Driver.DriverFactory;
 import com.ToolsQAProject.utilities.ExcelReader;
 import com.ToolsQAProject.utilities.ITestReporter;
 import com.ToolsQAProject.utilities.Reporter;
+import com.ToolsQAProject.utilities.ResultAnalysisLog;
 import com.ToolsQAProject.utilities.logger.LoggerManager;
 import com.codoid.products.exception.FilloException;
 import com.maveric.core.config.ConfigProperties;
@@ -60,10 +61,11 @@ public static ITestReporter testReporter;
 		{
 			logger.error("FAIL || "+ getTestName(caller)+getTestDescription(caller));
 		}
-		if(testReporter.getRunStatus().toString().toLowerCase() == "skip")
+		if(testReporter.getRunStatus().toString().toLowerCase() == "unknown")
 		{
 			logger.warn("SKIP || "+ getTestName(caller)+getTestDescription(caller));
 		}
+		
 		testReporter.endTest();
 		Reporter.flushReport();
 		DriverFactory.getInstance().removeDriver();
@@ -72,6 +74,7 @@ public static ITestReporter testReporter;
 	@AfterSuite
 	public void closeReport()
 	{
+		ResultAnalysisLog dummy = new ResultAnalysisLog();
 		Reporter.closeReport();
 	}
 

@@ -15,13 +15,13 @@ Feature: Parabank Website Features
   	Then System should take to parabank home page
   		
   Examples:
-  |testCaseID		| moduleName 	| tableNameOnDB 		|
-#  |TC001				|	parabank		|	register_details	|
-# 	|TC002				|	parabank		|	register_details	|
-# 	|TC003				|	parabank		|	register_details	|
-# 	|TC004				|	parabank		|	register_details	|
- 	|TC005				|	parabank		|	register_details	|
-# 	|TC006				|	parabank		|	register_details	|
+  	|testCaseID			| moduleName 				| tableNameOnDB 		|
+ 	|TC001				|	RegisterParaBank		|	register_details	|
+ 	|TC002				|	RegisterParaBank		|	register_details	|
+ 	|TC003				|	RegisterParaBank		|	register_details	|
+ 	|TC004				|	RegisterParaBank		|	register_details	|
+ 	|TC005				|	RegisterParaBank		|	register_details	|
+ 	|TC006				|	RegisterParaBank		|	register_details	|
   	
     
 
