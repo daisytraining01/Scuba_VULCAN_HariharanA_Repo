@@ -22,8 +22,8 @@ public class ParabankLoginStepDefinition implements En{
 		 Given("User should pass the vaild data for {string} for {string} from DB table {string}", (String caseID, String dbName, String dbTableName) -> {
 			 	Database db = new Database("mysql", "Hariharan", "Iamgroot", "localhost", "3306", dbName);
 			    System.out.println("Case ID --"+caseID);
-			    //testData = ExcelReader.ReadExcel(System.getProperty("user.dir")+ "/src/test/java/com/ToolsQAProject/resource/TestData.xlsx",workbookname , "TC_ID='"+caseID+"'");			 
-			    testData = db.readDataFromDB("select * from "+dbTableName+" where TC_ID='"+caseID+"'");
+			    testData = ExcelReader.ReadExcel(System.getProperty("user.dir")+ "/src/test/java/com/ToolsQAProject/resource/TestData.xlsx",dbName , "TC_ID='"+caseID+"'");			 
+			   // testData = db.readDataFromDB("select * from "+dbTableName+" where TC_ID='"+caseID+"'");
 			    Report.log("Data Used :\n"+testData.toString());
 			});
 	

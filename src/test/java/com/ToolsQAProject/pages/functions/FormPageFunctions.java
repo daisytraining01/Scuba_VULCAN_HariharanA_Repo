@@ -26,7 +26,7 @@ public class FormPageFunctions {
 		CommonDef.sendKeyswithEnter(FormPageElements.forms_subjectsContainer_Box(), testData.get("Subject").toString());
 		CommonDef.scrollJS(FormPageElements.forms_hobbies_checkbox(testData.get("Hobbies").toString()));
 		CommonDef.clickJS(FormPageElements.forms_hobbies_checkbox(testData.get("Hobbies").toString()));
-		CommonDef.uploadPic(FormPageElements.forms_upload_image(), "C:\\Users\\user\\scuba project\\NewTAFUpdated\\src\\test\\java\\com\\ToolsQAProject\\resource\\imagestoupload\\"+testData.get("ImageName"));
+		CommonDef.uploadPic(FormPageElements.forms_upload_image(), "E:\\my project\\Scuba_VULCAN_HariharanA_Repo\\src\\test\\java\\com\\ToolsQAProject\\resource\\imagestoupload\\"+testData.get("ImageName"));
 		CommonDef.sendKeys(FormPageElements.forms_currentAddress_box(), testData.get("Address"));
 		CommonDef.clickJS(FormPageElements.forms_state_box());
 		CommonDef.sendKeyswithEnter(FormPageElements.forms_state_box(), testData.get("State").toString());

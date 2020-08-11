@@ -20,3 +20,57 @@
 2020-08-03 19:43:41.519 [TestNG-PoolService-1] ERROR com.ToolsQAProject.tests.TestBase - Error message
 2020-08-03 20:30:24.528 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
 2020-08-03 20:30:51.602 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - PASS || FormsFilling Up Forms
+2020-08-11 18:53:40.538 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
+2020-08-11 18:53:40.540 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
+2020-08-11 18:56:24.293 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
+2020-08-11 18:56:24.294 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
+2020-08-11 18:59:16.694 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
+2020-08-11 18:59:16.696 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
+2020-08-11 19:00:23.695 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
+2020-08-11 19:00:23.696 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
+2020-08-11 19:01:03.802 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - PASS || FormsFilling Up Forms
+2020-08-11 19:01:09.777 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - PASS || FormsFilling Up Forms
+2020-08-11 19:07:20.515 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
+2020-08-11 19:07:20.519 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
+2020-08-11 19:07:58.653 [TestNG-PoolService-1] ERROR com.ToolsQAProject.tests.TestBase - FAIL || FormsFilling Up Forms
+2020-08-11 19:08:10.204 [TestNG-PoolService-0] ERROR com.ToolsQAProject.tests.TestBase - FAIL || FormsFilling Up Forms
+2020-08-11 19:09:06.485 [TestNG-test=TestCase-1] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||BookStoreApplicationChoose your book
+2020-08-11 19:09:08.580 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
+2020-08-11 19:09:08.582 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||Parabank-Registration-LoginFilling Up Forms
+2020-08-11 19:09:08.611 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||Parabank-Registration-LoginFilling Up Forms
+2020-08-11 19:09:08.619 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
+2020-08-11 19:10:12.671 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - PASS || FormsFilling Up Forms
+2020-08-11 19:10:21.595 [TestNG-test=TestCase-1] ERROR com.ToolsQAProject.tests.TestBase - FAIL || BookStoreApplicationChoose your book
+2020-08-11 19:10:25.581 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - PASS || FormsFilling Up Forms
+2020-08-11 19:10:39.851 [TestNG-PoolService-1] ERROR com.ToolsQAProject.tests.TestBase - FAIL || Parabank-Registration-LoginFilling Up Forms
+2020-08-11 19:10:43.972 [TestNG-PoolService-0] ERROR com.ToolsQAProject.tests.TestBase - FAIL || Parabank-Registration-LoginFilling Up Forms
+2020-08-11 19:12:37.051 [TestNG-test=TestCase-1] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||BookStoreApplicationChoose your book
+2020-08-11 19:12:39.527 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||Parabank-Registration-LoginFilling Up Forms
+2020-08-11 19:12:39.528 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
+2020-08-11 19:12:39.543 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
+2020-08-11 19:12:39.559 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||Parabank-Registration-LoginFilling Up Forms
+2020-08-11 19:13:16.968 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - PASS || Parabank-Registration-LoginFilling Up Forms
+2020-08-11 19:13:22.996 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - PASS || Parabank-Registration-LoginFilling Up Forms
+2020-08-11 19:13:38.888 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - PASS || FormsFilling Up Forms
+2020-08-11 19:13:44.939 [TestNG-test=TestCase-1] ERROR com.ToolsQAProject.tests.TestBase - FAIL || BookStoreApplicationChoose your book
+2020-08-11 19:13:46.130 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - PASS || FormsFilling Up Forms
+2020-08-12 02:00:10.189 [main] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||BookStoreApplicationChoose your book
+2020-08-12 02:00:57.960 [main] ERROR com.ToolsQAProject.tests.TestBase - FAIL || BookStoreApplicationChoose your book
+2020-08-12 02:01:02.477 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
+2020-08-12 02:01:02.478 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
+2020-08-12 02:01:42.113 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - PASS || FormsFilling Up Forms
+2020-08-12 02:01:46.731 [TestNG-PoolService-1] ERROR com.ToolsQAProject.tests.TestBase - FAIL || FormsFilling Up Forms
+2020-08-12 02:01:47.953 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||Parabank-Registration-LoginFilling Up Forms
+2020-08-12 02:01:47.956 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||Parabank-Registration-LoginFilling Up Forms
+2020-08-12 02:02:15.777 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - PASS || Parabank-Registration-LoginFilling Up Forms
+2020-08-12 02:02:16.932 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - PASS || Parabank-Registration-LoginFilling Up Forms
+2020-08-12 04:05:40.452 [TestNG-test=TestCase-1] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||BookStoreApplicationChoose your book
+2020-08-12 04:05:42.606 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||Parabank-Registration-LoginFilling Up Forms
+2020-08-12 04:05:42.618 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
+2020-08-12 04:05:42.619 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||Parabank-Registration-LoginFilling Up Forms
+2020-08-12 04:05:42.624 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
+2020-08-12 04:06:43.595 [TestNG-PoolService-0] ERROR com.ToolsQAProject.tests.TestBase - FAIL || Parabank-Registration-LoginFilling Up Forms
+2020-08-12 04:06:51.657 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - PASS || Parabank-Registration-LoginFilling Up Forms
+2020-08-12 04:06:57.997 [TestNG-test=TestCase-1] ERROR com.ToolsQAProject.tests.TestBase - FAIL || BookStoreApplicationChoose your book
+2020-08-12 04:07:00.841 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - PASS || FormsFilling Up Forms
+2020-08-12 04:07:02.402 [TestNG-PoolService-1] ERROR com.ToolsQAProject.tests.TestBase - FAIL || FormsFilling Up Forms
