@@ -74,3 +74,8 @@
 2020-08-12 04:06:57.997 [TestNG-test=TestCase-1] ERROR com.ToolsQAProject.tests.TestBase - FAIL || BookStoreApplicationChoose your book
 2020-08-12 04:07:00.841 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - PASS || FormsFilling Up Forms
 2020-08-12 04:07:02.402 [TestNG-PoolService-1] ERROR com.ToolsQAProject.tests.TestBase - FAIL || FormsFilling Up Forms
+2020-08-12 04:55:45.279 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
+2020-08-12 04:55:45.285 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||FormsFilling Up Forms
+2020-08-12 04:55:45.295 [TestNG-PoolService-0] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||Parabank-Registration-LoginFilling Up Forms
+2020-08-12 04:55:45.296 [TestNG-PoolService-1] INFO  com.ToolsQAProject.tests.TestBase - STARTED ||Parabank-Registration-LoginFilling Up Forms
+2020-08-12 04:56:01.670 [TestNG-PoolService-0] WARN  com.ToolsQAProject.tests.TestBase - SKIP || Parabank-Registration-LoginFilling Up Forms
